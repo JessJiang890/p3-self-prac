@@ -1,3 +1,15 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "airbnb-typescript",
+    "prettier",
+    "plugin:react/jsx-runtime"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  }
+  // "rules": {
+  //   "react/react-in-jsx-scope": "off"
+  // }
 }
